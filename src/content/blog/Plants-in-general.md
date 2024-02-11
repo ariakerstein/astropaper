@@ -3,7 +3,6 @@ title: Plants, in general
 pubDatetime: 2020-12-31
 draft: false
 description: a note on plants
-Tags: [meditations]
 ---
 
 The frisbee veers into the brush. Lua and I walk over. As we crouch over the planter box I look down and notice green protruding jaws cup two tablespoons of water. As I inch closer, I notice white spots, patterns and tiny teeth along the edges of the leaves. 
