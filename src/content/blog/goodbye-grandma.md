@@ -2,7 +2,6 @@
 title: "Goodbye Grandma"
 pubDatetime: 2018-12-20
 draft: false
-categories: essays, meditations
 description: "Parting words for my grandma"
 ---
 
