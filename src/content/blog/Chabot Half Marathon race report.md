@@ -3,7 +3,7 @@ title: Chabot half marathon race report
 pubDatetime: 2013-11-10
 description: race report for the Chabot half
 draft: false
-Tags: [Running]
+Tags: Running
 ---
 > If you emphasize the physical side of training you may become superbly conditioned but mentally not advanced at all. On the other hand, if you concentrate on the mental aspect, it is inevitable that the physical side will follow. My golden rule is to train for the mental toughness and not to train for the physical development. 
 > - Herb Elliott (world champion middle distance runner)

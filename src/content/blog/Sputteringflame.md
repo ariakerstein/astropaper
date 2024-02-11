@@ -2,9 +2,9 @@
 title: Sputtering flame
 pubDatetime: 2022-03-22
 draft: false
-categories: [Product Craft]
+categories: Product Craft
 description: "The difference between a rich fire and a sputtering flame"
-tags: [Product Craft]
+tags: Product Craft
 ---
 
 ## What might a life of full immersion look like?

@@ -3,7 +3,7 @@ title: The PDLC
 pubDatetime: 2023-04-20
 draft: true
 description: one form of pdlc
-tags: [essays]
+
 ---
 
 The Product roadmap is the source of truth for the allocation of internal resources aimed at building products. These resources include but are not limited to: engineering, product and design cycles. The business should expect deliverables as a result and teams should be held accountable to do as they say. Executing on roadmaps is how EPDD teams build trust; it’s how teams stay focused on the goal; and how the organization incrementally evolves toward an envisioned future.

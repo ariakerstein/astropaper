@@ -2,8 +2,6 @@
 title: "Aperture"
 pubDatetime: 2020-11-20
 draft: false
-categories: [essays]
-tags: [essays]
 description: "We are nature looking on itself"
 ---
 

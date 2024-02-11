@@ -2,9 +2,7 @@
 title: "Finish Your Work"
 pubDatetime: 2022-06-17
 draft: false
-categories: [logs]
 description: "focus to avoid waste"
-tags: [leadership, PM]
 ---
 
 I recently read "Scrum" and several points hit home. In reflecting on my own intellectual and creative pursuits. While I've been doing product for well over a decade now there are definitely areas of continued improvement that are needed. 

@@ -3,8 +3,8 @@ title: The space between sets
 pubDatetime: 2019-12-27
 draft: false
 description: the space between sets is prime thinking time
-Tags: [mindset, training ]
-Category: [test]
+Tags: mindset, training
+Category: test
 ---
 
 If you asked me as a teenager I would have told you the payoff of workouts was in the primal aspects of the activity, the immediate feelings. It was about seeing how hard I could push the body. All that adolescent aggression had to get channelled somehow. This was easy and satisfying. It was about adrenaline, the ‘pump’.
