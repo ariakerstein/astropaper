@@ -2,6 +2,7 @@
 title: Plants, in general
 pubDatetime: 2020-12-31
 draft: false
+description: a note on plants
 Tags: [meditations]
 ---
 

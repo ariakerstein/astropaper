@@ -1,6 +1,6 @@
 ---
 title: The PDLC
-date: 2023-04-20
+pubDatetime: 2023-04-20
 draft: true
 description:
 tags: [essays]

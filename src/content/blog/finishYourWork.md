@@ -3,7 +3,7 @@ title: "Finish Your Work"
 pubDatetime: 2022-06-17
 draft: false
 categories: [logs]
-description: "focus to avoids waste"
+description: "focus to avoid waste"
 tags: [leadership, PM]
 ---
 

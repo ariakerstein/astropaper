@@ -1,6 +1,6 @@
 ---
 title: "Sublime Moments"
-date: 2020-12-27
+pubDatetime: 2020-12-27
 draft: false
 categories: [logs]
 description: "Optimizing for grace is both easy and elusive"

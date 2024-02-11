@@ -1,8 +1,9 @@
 
 ---
 title: "Leaving Science"
-date: 2013-02-13
+pubDatetime: 2013-02-13
 draft: false
+description: moving away from science 
 Tags: [science]
 ---
 
