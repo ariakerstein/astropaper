@@ -2,7 +2,7 @@
 title: The PDLC
 pubDatetime: 2023-04-20
 draft: true
-description:
+description: one form of pdlc
 tags: [essays]
 ---
 
