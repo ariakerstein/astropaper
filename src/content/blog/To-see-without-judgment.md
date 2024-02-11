@@ -1,7 +1,8 @@
 ---
 title: To see without judgment
-date: 2020-12-31
+pubDatetime: 2020-12-31
 draft: true
+description: stop judging so much
 Tags: [mindset]
 ---
 

@@ -2,6 +2,7 @@
 title: When to show your work
 pubDatetime: 2020-12-27
 draft: false
+description: get faster feedback
 categories: [logs]
 Tags: [Product]
 ---
