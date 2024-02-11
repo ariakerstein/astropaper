@@ -3,7 +3,6 @@ title: The space between sets
 pubDatetime: 2019-12-27
 draft: false
 description: the space between sets is prime thinking time
-Tags: mindset, training
 Category: test
 ---
 

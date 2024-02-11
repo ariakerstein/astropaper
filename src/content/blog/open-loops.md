@@ -3,7 +3,6 @@ title: "Open Loops"
 pubDatetime: 2020-11-23
 draft: false
 description: "Close open loops, stop suffering"
-tags: essays
 ---
 
 I pass over a graveyard. If I had to guess I would say the overwhelming majority of bones beneath the stones had unfinished business - open loops.

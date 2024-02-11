@@ -3,7 +3,6 @@ title: "Flavors Of Exhaustion"
 pubDatetime: 2020-06-18
 description: a taxonomy of exhaustion types
 draft: false
-Tags: mindset
 ---
 
 There are several flavors of exhaustion. Here’s the taxonomy. 
