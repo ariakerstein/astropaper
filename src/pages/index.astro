@@ -23,10 +23,6 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      <h1>Ari Notes</h1>
-      <p>
-        Field notes on the craft of building products. 
-      </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
