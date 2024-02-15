@@ -8,7 +8,7 @@ I use this space to share updates on Product management practice, essays and gen
 
 Here’s a short-list of useful links:
 * Proud member of the [Leukemia and Lymphoma Society Big Climb](https://www.facebook.com/LLSGBA/posts/ari-akerstein-was-diagnosed-with-blood-cancer-two-years-ago-as-a-father-and-husb/10158461765008724/) Executive team
-
+* Product School [profile](https://productschool.com/product-leaders/ari-akerstein)
 * Inventor of [COREwheels](https://www.amazon.com/SKLZ-APD-CW01-02-Dynamic-Strength-Trainer/dp/B00C81JUS2/ref=sr_1_2_sspa). See it on [Instagram](https://www.instagram.com/explore/tags/corewheels/?hl=en) 
 * Profile on [LinkedIn](https://www.linkedin.com/in/ariakerstein/)
 * [Github](https://github.com/ariakerstein)
