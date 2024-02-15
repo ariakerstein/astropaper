@@ -26,13 +26,13 @@ export const LOGO_IMAGE = {
 export const SOCIALS: SocialObjects = [
   {
     name: "Github",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://github.com/ariakerstein/",
     linkTitle: ` ${SITE.title} on Github`,
     active: true,
   },
   {
     name: "Facebook",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.facebook.com/ari.akerstein/",
     linkTitle: `${SITE.title} on Facebook`,
     active: true,
   },
@@ -44,7 +44,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "LinkedIn",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://www.linkedin.com/in/ariakerstein/",
     linkTitle: `${SITE.title} on LinkedIn`,
     active: true,
   },
@@ -56,7 +56,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Twitter",
-    href: "https://github.com/satnaing/astro-paper",
+    href: "https://twitter.com/AAkerstein",
     linkTitle: `${SITE.title} on Twitter`,
     active: false,
   },
