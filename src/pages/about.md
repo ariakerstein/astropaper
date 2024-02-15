@@ -3,34 +3,16 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-AstroPaper is a minimal, responsive and SEO-friendly Astro blog theme. I designed and crafted this based on [my personal blog](https://satnaing.dev/blog).
+<!-- ![Ari headshot](@assets/ari-shaved.png) -->
+I use this space to share updates on Product management practice, essays and general observations. Last year I battled a blood cancer cancer. You can read about that at that on [Chemolog ebook](/Chemolog-ebook.pdf)
 
-This theme is aimed to be accessible out of the box. Light and dark mode are supported by
-default and additional color schemes can also be configured.
+Here’s a short-list of useful links:
+* Proud member of the [Leukemia and Lymphoma Society Big Climb](https://www.facebook.com/LLSGBA/posts/ari-akerstein-was-diagnosed-with-blood-cancer-two-years-ago-as-a-father-and-husb/10158461765008724/) Executive team
 
-This theme is self-documented \_ which means articles/posts in this theme can also be considered as documentations. So, see the documentation for more info.
-
-<div>
-  <img src="/assets/dev.svg" class="sm:w-1/2 mx-auto" alt="coding dev illustration">
-</div>
-
-## Tech Stack
-
-This theme is written in vanilla JavaScript (+ TypeScript for type checking) and a little bit of ReactJS for some interactions. TailwindCSS is used for styling; and Markdown is used for blog contents.
-
-## Features
-
-Here are certain features of this site.
-
-- fully responsive and accessible
-- SEO-friendly
-- light & dark mode
-- fuzzy search
-- super fast performance
-- draft posts
-- pagination
-- sitemap & rss feed
-- highly customizable
-
-If you like this theme, you can star/contribute to the [repo](https://github.com/satnaing/astro-paper).  
-Or you can even give any feedback via my [email](mailto:contact@satnaing.dev).
+* Inventor of [COREwheels](https://www.amazon.com/SKLZ-APD-CW01-02-Dynamic-Strength-Trainer/dp/B00C81JUS2/ref=sr_1_2_sspa). See it on [Instagram](https://www.instagram.com/explore/tags/corewheels/?hl=en) 
+* Profile on [LinkedIn](https://www.linkedin.com/in/ariakerstein/)
+* [Github](https://github.com/ariakerstein)
+* Reading list [Good Reads](https://www.goodreads.com/review/list/59584576?shelf=%23ALL%23)
+* Startup mentor and [Advisor](https://www.about.greatnonprofits.org/advisory-board)
+* Running [Strava](https://www.strava.com/dashboard)
+* Race results: [Boston Marathon](http://registration.baa.org/cfm_Archive/iframe_ArchiveSearch.cfm) and [other races](https://www.runraceresults.com/Secure/RaceResults.cfm?ID=RCLF2016)
