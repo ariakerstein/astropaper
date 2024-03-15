@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-<!-- ![Ari headshot](@assets/ari-shaved.png) -->
+![Ari headshot](/assets/ari-shaved.png)
 I use this space to share updates on Product management practice, essays and general observations. Last year I battled a blood cancer cancer. You can read about that at that on [Chemolog ebook](/Chemolog-ebook.pdf)
 
 Here’s a short-list of useful links:
