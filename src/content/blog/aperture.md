@@ -1,7 +1,7 @@
 ---
 title: "Aperture"
 pubDatetime: 2020-11-20
-draft: false
+draft: true
 description: "We are nature looking on itself"
 ---
 
