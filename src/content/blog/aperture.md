@@ -9,6 +9,6 @@ Nature opens her aperture through the consciousness of humans. We are nature, in
 
 The young have much to learn from the older members of humanity. But it’s nothing compared to what the old have to learn from the past. So we are all in this together, as the living.
 
-Consider the lack of backup we humans have. The population of living people is cancle fire. Our planetary resources are the candle wax. But what happens if the fire were to extinguish - some catastrophy, say.
+Consider the lack of backup we humans have. The population of living people is a fire. Our planetary resources are the candle wax. But what happens if the fire were to extinguish - some catastrophy, say.
 
 Even if we don’t need to spend all our moments looking for the next meal we easily fall into the slipstream of grinding daily. We must escape our conditions if we are to see a different future. The point is to work the collective to ensure it happens. Teams make dreams real.
