@@ -3,8 +3,8 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-![Ari headshot](/assets/images/ari-shaved.png)
-I use this space to share updates on Product management practice, essays and general observations. A few years ago I battled a blood cancer cancer. You can read about that at that on [Chemolog ebook](/Chemolog-ebook.pdf)
+![Ari headshot](/src/ari-shaved.png)
+I use this space to share updates on Product management practice, essays and general observations. A few years ago I battled a blood cancer cancer. You can read about that at that on [Chemolog ebook](/src/Chemolog-ebook.pdf)
 
 Here’s a short-list of useful links:
 * Proud member of the [Leukemia and Lymphoma Society Big Climb](https://www.facebook.com/LLSGBA/posts/ari-akerstein-was-diagnosed-with-blood-cancer-two-years-ago-as-a-father-and-husb/10158461765008724/) Executive team
