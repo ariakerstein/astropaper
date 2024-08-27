@@ -3,12 +3,10 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
----
-layout: ../layouts/AboutLayout.astro
-title: "About"
----
+I use this space to keep track of my various wanderings in the world. I'll updates on Product management practice, essays and general observations. 
 
-I use this space to keep track of my various wanderings in the world. I'll updates on Product management practice, essays and general observations. A few years ago I battled a blood cancer cancer. You can read about that at that on [Chemolog ebook](/src/Chemolog-ebook.pdf)
+I currently run a healthTech accelerator with a focus on bringing consumer tech to cancer care (todo: link the site).
+
 
 Here’s a list of useful links:
 * Blogging about Health Tech with an emphasis on new technologies, and how it impacts the Patient experience at [The Rogue Patient](https://ariakerstein.substack.com/p/the-rogue-patient)
