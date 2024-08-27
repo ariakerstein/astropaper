@@ -23,7 +23,7 @@ Here’s a list of useful links:
 * Running [Strava](https://www.strava.com/dashboard)
 * Race results: [Boston Marathon](http://registration.baa.org/cfm_Archive/iframe_ArchiveSearch.cfm) and [other races](https://www.runraceresults.com/Secure/RaceResults.cfm?ID=RCLF2016)
 
-![Ari](/src/ari_russian_river.jpg)
+![Ari](/assets/images/ari_russian_river.jpg)
 I use this space to keep track of my various wanderings in the world. I'll updates on Product management practice, essays and general observations. A few years ago I battled a blood cancer cancer. You can read about that at that on [Chemolog ebook](/src/Chemolog-ebook.pdf)
 
 
