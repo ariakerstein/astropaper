@@ -3,9 +3,9 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-I use this space to keep track of my various wanderings in the world. I'll updates on Product management practice, essays and general observations. 
+I use this space to keep track of my various thoughts about the world. As a Produce manager and leader I think a lot about Product craft, essays and general observations. 
 
-I currently run a healthTech accelerator with a focus on bringing consumer tech to cancer care (todo: link the site).
+I currently run a [healthTech accelerator](https://www.cancerhackerlab.com/) with a focus on bringing consumer tech to cancer care ().
 
 
 Here’s a list of useful links:
