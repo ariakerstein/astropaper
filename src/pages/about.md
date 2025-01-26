@@ -3,12 +3,11 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
+### Ari Akerstein
 I use this space to keep track of my various thoughts about the world. As a Product manager and leader I think a lot about Product craft, essays and general observations. 
 
-Ari Akerstein
-
 I'm an Entrepreneur, Product Manager, Father, Molecular Biologist.
- Some things about me: 
+### Some things about me: 
 - Grew up in Providence, RI
 - Invented CoreWheels after college, inspired by gymnastic strength and wanting to give people at home a better way to improve their strength/weight ratio.
 - While growing that company did a MS in Molecular Biology at SFSU. Then shifted to UCSF. Working in the lab is great for 25 hours a week. 
@@ -17,7 +16,8 @@ I'm an Entrepreneur, Product Manager, Father, Molecular Biologist.
 - Battled Cancer in 2018 as a new dad - wrote a lot about that here RoguePatient. 
 - Decided to pivot my career into healthtech. Joined GrandRounds/Included Health (merged with Doctor On Demand) to build their virtual specialty care product. 
 - I now lead a healthtech accelerator focused on improving the patient experience relative to hard medical situations e.g., advanced cancer. 
- Some things I believe: 
+
+### Some things I believe: 
 - Pull over push
 	- Enthusiasm matters a lot. It's much easier to do things that you would do even if you didn't need the money. The reason this matters is that energy is the critical ingredient (all the brains in the world don't matter without it) - both for your own productivity, but also to pull others into the work. 
 - Retirement and financial freedom are different:
@@ -50,11 +50,11 @@ I'm an Entrepreneur, Product Manager, Father, Molecular Biologist.
 	- What invisible limitations and beliefs are holding you back? 
 	- Onboading at Meta for Product Managers consists of a multi-week bootcamp. Imposter syndrome was a large theme. The better you are the more you tend to suffer this issue. You are not alone! 
 	- The laws of physics are the only limit
-Current areas of interest:
+### Current areas of interest:
 - Applying AI and consumer technology to healthcare. 
 - Figuring out how to be a better dad (always) 
  
-Here’s a (somewhat outdated) list of useful links:
+### Here’s a (somewhat outdated) list of useful links:
 - Blogging about Health Tech with an emphasis on new technologies, and how it impacts the Patient experience at The Rogue Patient
 - A few years ago I battled a blood cancer cancer. You can read about that at that on [Chemolog ebook](/src/Chemolog-ebook.pdf)
 - [West Acton Sauna](https://www.westactonsauna.com/) (I run a Sauna/Ice Plunge company!)
