@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AstroPaper Content Management</title>
+    <!-- Include the Netlify CMS script and styles -->
+    <link href="https://unpkg.com/netlify-cms@^2.0.0/dist/cms.css" rel="stylesheet" />
+    <style>
+      /* Custom styles for the CMS interface */
+      :root {
+        --primary-color: #3b82f6;
+        --text-color: #171717;
+        --background-color: #f9fafb;
+        --header-height: 56px;
+      }
+      
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        color: var(--text-color);
+        background-color: var(--background-color);
+        margin: 0;
+      }
+      
+      /* Header styling */
+      .nc-appHeader-container {
+        background-color: var(--primary-color) !important;
+      }
+      
+      /* Improve button contrast */
+      .nc-button {
+        background-color: var(--primary-color) !important;
+        border-color: var(--primary-color) !important;
+      }
+      
+      /* Improve sidebar navigation */
+      .nc-collectionPage-sidebar {
+        background-color: #f1f5f9 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- The script with Netlify Identity widget -->
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+    
+    <!-- The main CMS script -->
+    <script src="https://unpkg.com/netlify-cms@^2.0.0/dist/netlify-cms.js"></script>
+    
+    <!-- Custom preview styles for the Markdown editor -->
+    <script>
+      CMS.registerPreviewStyle("/assets/styles/content.css");
+      
+      // You can add custom preview templates here if needed
+      // Example:
+      // const BlogPostPreview = ({ entry, widgetFor }) => {
+      //   return h('div', {},
+      //     h('h1', {}, entry.getIn(['data', 'title'])),
+      //     h('div', {}, widgetFor('body'))
+      //   );
+      // };
+      // CMS.registerPreviewTemplate("blog", BlogPostPreview);
+    </script>
+  </body>
+</html>

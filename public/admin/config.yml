@@ -1,0 +1,71 @@
+backend:
+  name: github
+  repo: ariakerstein/astropaper
+  branch: main
+  auth_scope: repo # Adjust this if needed to match the permissions you want to grant
+  base_url: https://api.netlify.com # This URL won't change for Auth0
+
+# These lines enable the use of the Netlify platform for authentication
+site_id: 80ede7d4-d2c9-46d8-a43a-0d41540f2ce0
+ # Replace with your actual Netlify site ID
+use_secure_storage: true
+
+# Media settings
+media_folder: "public/assets" # Where your media files will be stored in the repo
+public_folder: "/assets" # The src path for uploaded media
+
+# Editorial workflow - enables draft status
+publish_mode: editorial_workflow
+
+# Define content collections
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "Blog" # Used in the UI
+    folder: "src/content/blog" # Path to your blog posts
+    create: true # Allow users to create new documents
+    slug: "{{slug}}" # Filename template, e.g., TITLE.md
+    fields: # The fields for each document
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Publication Date", name: "pubDatetime", widget: "datetime"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Featured Image", name: "ogImage", widget: "image", required: false, hint: "Image used for social media cards"}
+      - {label: "Tags", name: "tags", widget: "list", default: ["uncategorized"]}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  - name: "pages" # Used in routes, e.g., /admin/collections/pages
+    label: "Pages" # Used in the UI
+    folder: "src/content/pages" # Path to your static pages
+    create: true # Allow users to create new documents
+    slug: "{{slug}}" # Filename template
+    fields: # The fields for each document
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "string"}
+      - {label: "Content", name: "body", widget: "markdown"}
+
+  # Site configuration
+  - name: "config"
+    label: "Configuration"
+    files:
+      - label: "Site Config"
+        name: "site"
+        file: "src/config.ts" # Adjust this to match your actual config file
+        fields:
+          - {label: "Website Name", name: "SITE.website", widget: "string"}
+          - {label: "Website Description", name: "SITE.desc", widget: "string"}
+          - {label: "Website URL", name: "SITE.url", widget: "string"}
+          - {label: "Website Title", name: "SITE.title", widget: "string"}
+          - {label: "Light and Dark Mode", name: "SITE.lightAndDarkMode", widget: "boolean", default: true}
+          - {label: "Default Theme", name: "SITE.defaultTheme", widget: "select", options: ["light", "dark"], default: "light"}
+          
+      - label: "Navigation"
+        name: "navigation"
+        file: "src/navigation.ts" # Adjust this if needed
+        fields:
+          - label: "Main Navigation"
+            name: "navItems"
+            widget: "list"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "URL", name: "url", widget: "string"}
+              - {label: "Order", name: "order", widget: "number", default: 1}
