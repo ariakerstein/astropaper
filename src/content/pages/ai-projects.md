@@ -1,6 +1,6 @@
 ---
-title: AI Projects
-description: "AI projects and ideas "
+title: Dir of Shipped
+description: Directory of Products
 ---
 #﻿# Fun
 
