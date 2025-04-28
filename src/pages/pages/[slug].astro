@@ -1,0 +1,17 @@
+---
+import { getEntryBySlug } from "astro:content";
+import PageLayout from "../../layouts/PageLayout.astro"; // path depends on where your layouts are
+
+const { slug } = Astro.params;
+const page = await getEntryBySlug('pages', slug);
+
+if (!page) {
+  throw new Error(`Page not found for slug: ${slug}`);
+}
+
+const { data, body } = page;
+---
+
+<PageLayout title={data.title} description={data.description}>
+  {body}
+</PageLayout>
