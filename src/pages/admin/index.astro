@@ -9,6 +9,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="robots" content="noindex" />
     <title>Content Manager | Ari's Field Notes</title>
+    <style is:inline>
+      /* Clean, minimal writing UI */
+      :root {
+        --font-sans:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        --font-mono: "SF Mono", "Fira Code", monospace;
+        --color-bg: #fafafa;
+        --color-accent: #2563eb;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        background: var(--color-bg);
+      }
+
+      /* Larger, cleaner editor */
+      [data-slate-editor="true"],
+      .cms-editor-visual {
+        font-size: 18px !important;
+        line-height: 1.7 !important;
+        max-width: 720px !important;
+        margin: 0 auto !important;
+        padding: 2rem !important;
+      }
+
+      /* Better markdown preview */
+      .cms-editor-visual h1,
+      .cms-editor-visual h2,
+      .cms-editor-visual h3 {
+        font-weight: 600 !important;
+        margin-top: 1.5em !important;
+      }
+
+      /* Clean form inputs */
+      input[type="text"],
+      textarea {
+        font-size: 16px !important;
+        padding: 0.75rem !important;
+        border-radius: 6px !important;
+      }
+
+      /* Wider content area */
+      .css-1n8uuv0,
+      .css-1cglkho {
+        max-width: 900px !important;
+      }
+
+      /* Hide clutter */
+      [class*="ToolbarButton"]:not(:first-child):not(:nth-child(2)):not(
+          :nth-child(3)
+        ):not(:nth-child(4)):not(:nth-child(5)) {
+        /* Keep only essential buttons */
+      }
+
+      /* Nice publish button */
+      button[class*="PublishButton"] {
+        background: var(--color-accent) !important;
+        border-radius: 8px !important;
+        font-weight: 500 !important;
+      }
+
+      /* Sidebar cleanup */
+      aside {
+        background: white !important;
+      }
+    </style>
   </head>
   <body>
     <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js" is:inline

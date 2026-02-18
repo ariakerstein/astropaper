@@ -5,22 +5,95 @@ backend:
 # For local development without Git
 local_backend: true
 
+# Media Library
 media_folder: "public/images"
 public_folder: "/images"
 
+# Site preview
+site_url: https://astropaper-ariakersteins-projects.vercel.app
+display_url: https://astropaper-ariakersteins-projects.vercel.app
+
+# Slug settings
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
 collections:
+  # Published Posts
   - name: "blog"
-    label: "Blog Posts"
+    label: "Published Posts"
+    label_singular: "Post"
     folder: "src/content/blog"
     create: true
     slug: "{{slug}}"
     extension: "md"
     format: "frontmatter"
+    sortable_fields: ["pubDatetime", "title"]
+    view_filters:
+      - label: "Published"
+        field: draft
+        pattern: false
+      - label: "Drafts"
+        field: draft
+        pattern: true
+    view_groups:
+      - label: "Year"
+        field: pubDatetime
+        pattern: \d{4}
+    summary: "{{title}} — {{pubDatetime | date('YYYY-MM-DD')}}"
+    fields:
+      - label: "Title"
+        name: "title"
+        widget: "string"
+        pattern: [".{3,}", "Must be at least 3 characters"]
+      - label: "Publish Date"
+        name: "pubDatetime"
+        widget: "datetime"
+        date_format: "YYYY-MM-DD"
+        time_format: false
+        format: "YYYY-MM-DDTHH:mm:ssZ"
+      - label: "Description"
+        name: "description"
+        widget: "text"
+        required: false
+        hint: "Short summary for SEO and social sharing"
+      - label: "Tags"
+        name: "tags"
+        widget: "list"
+        default: ["essays"]
+        hint: "Comma-separated tags"
+      - label: "Cover Image"
+        name: "ogImage"
+        widget: "image"
+        required: false
+        hint: "Optional cover image for social sharing"
+      - label: "Draft"
+        name: "draft"
+        widget: "boolean"
+        default: false
+        hint: "Drafts won't appear on the live site"
+      - label: "Content"
+        name: "body"
+        widget: "markdown"
+        buttons: ["bold", "italic", "link", "heading-two", "heading-three", "quote", "bulleted-list", "numbered-list"]
+        editor_components: ["image"]
+        modes: ["raw", "rich_text"]
+
+  # Drafts workspace
+  - name: "drafts"
+    label: "Drafts"
+    folder: "src/content/blog"
+    create: true
+    slug: "{{slug}}"
+    extension: "md"
+    format: "frontmatter"
+    filter: { field: "draft", value: true }
+    summary: "📝 {{title}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "pubDatetime", widget: "datetime" }
+      - { label: "Publish Date", name: "pubDatetime", widget: "datetime", date_format: "YYYY-MM-DD", time_format: false }
       - { label: "Description", name: "description", widget: "text", required: false }
       - { label: "Tags", name: "tags", widget: "list", default: ["essays"] }
-      - { label: "Featured", name: "featured", widget: "boolean", default: false }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Draft", name: "draft", widget: "hidden", default: true }
+      - { label: "Content", name: "body", widget: "markdown" }
