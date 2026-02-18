@@ -12,7 +12,9 @@
     "format": "prettier --write . --plugin=prettier-plugin-astro",
     "cz": "cz",
     "prepare": "husky install",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "cms": "npx decap-server",
+    "dev:cms": "concurrently \"npm run dev\" \"npm run cms\""
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
