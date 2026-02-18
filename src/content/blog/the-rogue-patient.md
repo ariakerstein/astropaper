@@ -3,7 +3,7 @@ title: "The Rogue Patient: Navigating Healthcare"
 pubDatetime: 2018-06-15T00:00:00Z
 description: "Lessons learned from navigating a cancer diagnosis in the American healthcare system. A guide for patients and caregivers."
 tags: ["health", "cancer", "essays", "navis"]
-featured: true
+featured: false
 draft: false
 ---
 
